@@ -21,6 +21,9 @@ After the installation is complete, you can start the development server by runn
 ## Additional Information
 
 1.The primary styling was accomplished using TailwindCSS, along with CSS modules for some animations, ensuring styles are contained within respective files.
+
 2.Index.css contains all global styling.
+
 3.Routing functionality is facilitated by react-router-dom.
+
 4.The carousel functionality is achieved through the react-slick library.
