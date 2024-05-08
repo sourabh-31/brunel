@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* slick carousel */
+
+.slick-dots li.slick-active button:before {
+  color: #2da950 !important;
+}
+
+.slick-dots li:hover button:before {
+  color: #cad0cb !important;
+}
+
+.slick-dots {
+  text-align: left !important;
+  bottom: -60px !important;
+  left: -5px;
+}
+
+.slick-dots li button:before {
+  font-size: 13px !important;
+}
