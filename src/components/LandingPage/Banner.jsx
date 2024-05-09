@@ -5,7 +5,7 @@ import BannerCard from "./BannerCard";
 
 function Banner() {
   return (
-    <div className="font-manrope relative">
+    <div className="font-manrope relative sm:scale-75 xl:scale-[0.8] 2xl:scale-100">
       <img src={BannerImg} alt="banner" className="scale-95" />
       <div className="absolute top-[16%] -left-28">
         <BannerCard

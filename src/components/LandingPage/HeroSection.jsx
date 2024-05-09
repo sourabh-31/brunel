@@ -17,7 +17,7 @@ function HeroSection() {
         </p>
       </div>
 
-      <div className="flex justify-center gap-40 mt-24">
+      <div className="flex justify-center xl:gap-[8vw] 2xl:gap-[10vw] mt-24">
         <Banner />
         <Cta />
       </div>
